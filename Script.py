@@ -19,16 +19,12 @@ class script(object):
     
     STATUS_TXT = """<b>ʙᴏᴛ ᴜsᴇʀs ᴀɴᴅ ᴄʜᴀᴛ ᴄᴏᴜɴᴛ</b>
 🕵️ ᴛᴏᴛᴀʟ ᴜsᴇʀs:- <code>{}</code>   
-🏹 ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs:- <code>{}</code>
+🏷️ ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs:- <code>{}</code>
 
-<b>ᴘʀɪᴍᴀʀʏ sᴛᴀᴛᴜs</b>
-📽️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ:- <code>{}</code>
-🏷️ ꜰʀᴇᴇ sᴛᴏʀᴀɢᴇ:- <code>{}</code>
-
-<b>sᴇᴄᴏɴᴅᴀʀʏ sᴛᴀᴛᴜs</b>
-🎬 ᴛᴏᴛᴀʟ ꜰɪʟᴇs:- <code>{}</code>
-🎤 size - {}
-🎭 free - {}"""
+<b>ʙᴏᴛ ғɪʟᴇꜱ ꜱᴛᴀᴛᴜꜱ ɪɴ ꜱᴇᴄᴏɴᴅᴀʀʏ ᴅʙ</b>
+🚮 ᴛᴏᴛᴀʟ ꜰɪʟᴇs:- <code>{}</code>
+⏏️ size - {}
+📭 free - {}"""
     
     LOG_TEXT_G = """#NewGroup
     
