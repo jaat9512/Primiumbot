@@ -413,7 +413,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton("💸 ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ - ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ 💸", url=f"https://t.me/About_HK_Bot/2"))
+                InlineKeyboardButton("💸 ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ - ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ 💸", url=f"https://t.me/About_HK_Bot/2")
             ]
         )
         btn.insert(0, 
