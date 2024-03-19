@@ -84,7 +84,7 @@ we are nothing without your support please support us to bring more features in 
 
 * [![𝐑𝐄𝐏𝐎 𝐎𝐖𝐍𝐄𝐑](https://img.shields.io/static/v1?label=𝐂𝐎𝐍𝐓𝐀𝐂𝐓&message=𝐌𝐄&color=critical)](https://t.me/KUSHALHK)
 
-* * [![𝐃𝐄𝐌𝐎 𝐁𝐎𝐓](https://img.shields.io/static/v1?label=𝐃𝐄𝐌𝐎&message=𝐁𝐎𝐓&color=critical)](https://t.me/HK_Stream_Bot)
+* [![𝐃𝐄𝐌𝐎 𝐁𝐎𝐓](https://img.shields.io/static/v1?label=𝐃𝐄𝐌𝐎&message=𝐁𝐎𝐓&color=informational)](https://t.me/HK_Stream_Bot)
   
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 ```
