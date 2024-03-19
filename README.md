@@ -14,7 +14,7 @@
 
 👉 𝙘𝙤𝙣𝙩𝙖𝙘𝙩 𝙢𝙚 𝙤𝙣 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢
 <p align="middle">        
-<a href="https://telegram.dog/KUSHALHK"><img src="https://img.shields.io/badge/Tᴇʟᴇɢʀᴀᴍ-purple.svg?logo=telegram"></a>
+<a href="https://telegram.dog/KUSHALHK"><img src="https://img.shields.io/badge/Tᴇʟᴇɢʀᴀᴍ-Violet.svg?logo=telegram"></a>
 
 [![Stars](https://img.shields.io/github/stars/Kushalhk/TG_BOTZ?style=flat-square&color=blue)](https://github.com/Kushalhk/TG_BOTZ)
 [![Forks](https://img.shields.io/github/forks/Kushalhk/TG_BOTZ?style=flat-square&color=red)](https://github.com/Kushalhk/TG_BOTZ/fork)
