@@ -17,14 +17,16 @@ class script(object):
 ▫ ғʀᴇᴇ & ᴇᴀsʏ ᴛᴏ ᴜsᴇ.
 ▫ 𝟸𝟺x𝟽 sᴇʀᴠɪᴄᴇs ᴀᴠᴀɪʟᴀʙʟᴇ.</b>"""
     
-    STATUS_TXT = """<b>ʙᴏᴛ ᴜsᴇʀs ᴀɴᴅ ᴄʜᴀᴛ ᴄᴏᴜɴᴛ</b>
-🕵️ ᴛᴏᴛᴀʟ ᴜsᴇʀs:- <code>{}</code>   
-🏷️ ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs:- <code>{}</code>
+    STATUS_TXT = """<b>𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄 𝟏</b>
+⋟🕵️ ᴛᴏᴛᴀʟ ᴜsᴇʀs:- <code>{}</code>
+⋟🏹 ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs:- <code>{}</code>
+⋟📽️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ:- <code>{}</code>
+⋟🏷️ ꜰʀᴇᴇ sᴛᴏʀᴀɢᴇ:- <code>{}</code>
 
-<b>ʙᴏᴛ ғɪʟᴇꜱ ꜱᴛᴀᴛᴜꜱ ɪɴ ꜱᴇᴄᴏɴᴅᴀʀʏ ᴅʙ</b>
-🚮 ᴛᴏᴛᴀʟ ꜰɪʟᴇs:- <code>{}</code>
-⏏️ size - {}
-📭 free - {}"""
+<b>𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄 𝟐</b>
+⋟🎬 ᴛᴏᴛᴀʟ ꜰɪʟᴇs:- <code>{}</code>
+>🎤 size - {}
+>🎭 free - {}"""
     
     LOG_TEXT_G = """#NewGroup
     
