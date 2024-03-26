@@ -6,10 +6,10 @@ CMD = ["/", "."]
 
 @Client.on_message(filters.command("alive", CMD))
 async def check_alive(_, message):
-    m=await message.reply_sticker("CAACAgIAAxkBAAIw6WYC2ROIXsb04PibCs5ehGAPerx4AAKsAQACEBptInjWW-Ya5ObHHgQ")
+    await message.reply_sticker("CAACAgIAAxkBAAIw6WYC2ROIXsb04PibCs5ehGAPerx4AAKsAQACEBptInjWW-Ya5ObHHgQ")
     await asyncio.sleep(1)
     await m.delete()
-    m=await message.reply_text("𝐇𝐞𝐲 𝐃𝐮𝐝𝐞 😎 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐒𝐨 𝐋𝐮𝐜𝐤𝐲 𝐈𝐚𝐦 𝐀𝐥𝐢𝐯𝐞 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 /start 𝐓𝐨 𝐒𝐭𝐚𝐫𝐭 𝐌𝐞 💕")
+    await message.reply_text("𝐇𝐞𝐲 𝐃𝐮𝐝𝐞 😎 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐒𝐨 𝐋𝐮𝐜𝐤𝐲 𝐈𝐚𝐦 𝐀𝐥𝐢𝐯𝐞 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 /start 𝐓𝐨 𝐒𝐭𝐚𝐫𝐭 𝐌𝐞 💕")
     await asyncio.sleep(1)
     await m.delete()
 @Client.on_message(filters.command("ping", CMD))
