@@ -2022,7 +2022,7 @@ async def auto_filter(client, msg, spoll=False):
             return
         if len(message.text) < 100:
             search = message.text
-            m=await message.reply_sticker("CAACAgIAAxkBAAIogGX1DkYzEIvzXhhKa2MXKeKAh_zRAAKrAQACEBptIni-vpHMVGzHHgQ",
+            m=await message.reply_sticker("CAACAgIAAxkBAAIw1WYC0JRcNEHRB50ozZrpw2F5YRo9AAJ1AQACEBptInCKj7c5KByPHgQ",
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'Seaching for {search} 🔎', url=f"https://t.me/+Ul_owPNY0xQzOTRl")]]) 
             )
             search = search.lower()
@@ -2053,7 +2053,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
-        m=await message.reply_sticker("CAACAgIAAxkBAAIogGX1DkYzEIvzXhhKa2MXKeKAh_zRAAKrAQACEBptIni-vpHMVGzHHgQ",
+        m=await message.reply_sticker("CAACAgIAAxkBAAIw1WYC0JRcNEHRB50ozZrpw2F5YRo9AAJ1AQACEBptInCKj7c5KByPHgQ",
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'Seaching for {search} 🔎', url=f"https://t.me/+Ul_owPNY0xQzOTRl")]]) 
         )
         settings = await get_settings(message.chat.id)
