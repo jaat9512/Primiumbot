@@ -236,12 +236,12 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
 
-🧿 {title}</b>
-<b>⭐ {rating} | ⏰ {runtime} Minutes
-📆 {release_date}
-🕵️ {director}
-📰  {languages}
-📖 {plot}
+🧿 ᴛɪᴛʟᴇ : {title}
+⏰ ʀᴜɴᴛɪᴍᴇ : {runtime} Minutes
+📆 ʀᴇʟᴇᴀꜱᴇ ɪɴғᴏ : {release_date}
+📂 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>
+📰 ʟᴀɴɢᴜᴀɢᴇ : {languages}
+🏷️ ᴘʟᴏᴛ : {plot}
 
 💁‍♂️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title}</b>"""
     
