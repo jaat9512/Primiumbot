@@ -63,10 +63,10 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 👋"
         else:
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 👋"
-        m=await message.reply_text("👀")
+        m=await message.reply_text("💕")
         await asyncio.sleep(1)
         await m.delete()
-        m=await message.reply_sticker("CAACAgIAAxkBAAIoamX1Bj07jnPv-iUsb9ZfbjOSbGcqAAJpAQACEBptItP50YqvnDOtHgQ") 
+        m=await message.reply_sticker("CAACAgIAAxkBAAIw5GYC0r2dLiGSTSnP-ltYvPMeZqkcAAJfAQACEBptIsuguSqwLj6jHgQ") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -126,10 +126,10 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 👋"
         else:
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 👋"
-        m=await message.reply_text("👀")
+        m=await message.reply_text("💕")
         await asyncio.sleep(1)
         await m.delete()
-        m=await message.reply_sticker("CAACAgIAAxkBAAIoamX1Bj07jnPv-iUsb9ZfbjOSbGcqAAJpAQACEBptItP50YqvnDOtHgQ") 
+        m=await message.reply_sticker("CAACAgIAAxkBAAIw5GYC0r2dLiGSTSnP-ltYvPMeZqkcAAJfAQACEBptIsuguSqwLj6jHgQ") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
