@@ -51,7 +51,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # Online Stream and Download
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
-URL = environ.get("URL", "https://nice-meris-mahaan.koyeb.app/")
+SURL = environ.get("URL", "https://nice-meris-mahaan.koyeb.app/")
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
