@@ -1,6 +1,6 @@
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ForceReply, CallbackQuery
-from info import STREAM_MODE, URL, LOG_CHANNEL
+from info import STREAM_MODE, SURL, LOG_CHANNEL
 from urllib.parse import quote_plus
 from util.file_properties import get_name, get_hash, get_media_file_size
 from util.human_readable import humanbytes
