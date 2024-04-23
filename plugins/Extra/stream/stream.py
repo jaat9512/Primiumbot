@@ -34,14 +34,14 @@ async def stream_start(client, message):
             text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
             quote=True,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                                                InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])  # web stream Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=hp_link),  # we download Link
+                                                InlineKeyboardButton('🖥️ Watch online 🖥️', url=ph_link)]])  # web stream Link
         )
         rm=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("sᴛʀᴇᴀᴍ 🖥", url=stream),
-                    InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ 📥', url=download)
+                    InlineKeyboardButton("sᴛʀᴇᴀᴍ 🖥", url=ph_link),
+                    InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ 📥', url=hp_link)
                 ]
             ] 
         )
