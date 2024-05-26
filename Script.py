@@ -35,14 +35,14 @@ Iᴅ = <code>{}</code>
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}
 
-Bʏ @TG_UPDATES1"""
+Bʏ @Malangmovie"""
 
     LOG_TEXT_P = """#NewUser
     
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
 
-Bʏ @TG_UPDATES1"""
+Bʏ @Malangmovie"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,
