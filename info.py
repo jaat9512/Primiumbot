@@ -26,11 +26,11 @@ NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.j
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/62b41eeb4b5a1d1cc5efa.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/72763ab73f27d460137c4.jpg'))
-CODE = (environ.get('CODE', 'https://t.me/About_HK_Bot/2'))
+CODE = (environ.get('CODE', 'https://t.me/malangmovie'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'paisakamalo.in'))
-STREAM_API = (environ.get('STREAM_API', '16badb4cdfbd26689b88c28d4385b24b5ec85d81'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
+STREAM_API = (environ.get('STREAM_API', '377079fbe4cf4cea24424e961fd1b43d061c79bd'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://youtube.com/shorts/uZx0TqgfZ_Q?si=4_GOjLSyw4HbXchM'))
 
 # Admins, Channels & Users
@@ -56,23 +56,23 @@ SURL = environ.get("SURL", "https://nice-meris-mahaan.koyeb.app/")
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "kushalhk")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '377079fbe4cf4cea24424e961fd1b43d061c79bd')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+RfQK2YwfLVFmNzdl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TG_UPDATES1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/malangmovie3')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/malangmovie')
 TUTORIAL = environ.get('TUTORIAL', 'https://youtube.com/shorts/uZx0TqgfZ_Q?si=4_GOjLSyw4HbXchM')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : KUSHALHK')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Captains_Jack')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TG_SUPPORT_GROUP')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
